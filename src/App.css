@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+.movieRow{
+    margin-bottom: 30px;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.movieRow h2{
+    margin-left: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.movieRow--listarea{
+    padding: 0 30px;
+    overflow-x: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.movieRow--list{
+    transition: all ease-in-out .4s;
 }
 
-.App-link {
-  color: #61dafb;
+.movieRow-item{
+    display: inline-block;
+    cursor: pointer;
+    width: 150px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.movieRow-item img:hover{
+    transform: scale(1);
+    transition: all ease .2s;
+}
+
+.movieRow-item img{
+    transition: all ease .2s;
+    width: 100%;
+    transform: scale(.9);
+}
+
+.Lists{
+    margin-top: -70px;
+}
+
+footer{
+    margin: 50px auto;
+    text-align: center;
+}
+
+.loading{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 105;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading img{
+    height: 50vh;
 }

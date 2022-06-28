@@ -1,0 +1,144 @@
+.fetuire{
+    height: 100vh;
+}
+
+.fiture--vertical{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #111 10%, transparent 90%);
+}
+
+.fiture--horizontal{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right, #111 30%, transparent 70%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    padding-bottom: 95px;
+    padding-top: 70px;
+}
+
+.fiture--name{
+    font-size: 56px;
+    max-width: 80%;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.fiture--info{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.fiture--points{
+    color: green;
+}
+
+.fiture--year, .fiture--temp, .fiture--points{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.fiture--desc{
+    max-width: 50%;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #999;
+}
+
+.fiture--btns{
+    display: inline-flex;
+    font-size: 20px;
+    color: #999;
+    align-items: center;
+}
+
+.btn1, .btn2{
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: none;
+    opacity: 1;
+    transition: all ease .2s;
+    cursor: pointer;
+}
+
+.btn1:hover, .btn2:hover{
+    transition: all ease .2s;
+    opacity: 0.7;
+}
+
+.btn1{
+    background: #fff;
+    color: #111;
+    margin-right: 10px;
+}
+
+.btn2{
+    padding: 11px 20px;
+    background: #333;
+    color: #fff;
+}
+
+.fiture--geners{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #999;
+}
+
+/*===================RESPONSIVE====================*/
+
+@media only screen and (max-width: 768px){
+    .fetuire{
+        height: 100vH
+    }
+
+    
+    .fiture--name{
+        font-size: 40px;
+        max-width: 90%;
+        line-height: 40px;
+    }
+
+    .fiture--info{
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+
+    .fiture--year, .fiture--temp, .fiture--points{
+        display: inline-block;
+        margin-right: 15px;
+    }
+
+    .fiture--desc{
+        margin-top: 5px;
+        max-width: 80%;
+        margin-right: 30px;
+        font-size: 14px;
+    }
+
+    .fiture--btns{''
+        display: inline-flex;
+        font-size: 15px;
+    }
+
+    .btn1, .btn2{
+        padding: 8px 16px;
+        display: inline-flex;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    .fiture--geners{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+}

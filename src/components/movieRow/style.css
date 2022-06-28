@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #111;
+    color: #fff;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+  
+body::-webkit-scrollbar-track {
+    background: #222;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #DE0913;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #F04235;
+}
+
+body::-webkit-scrollbar-thumb:active {
+    background: #DE0913;
+}
+
+.movieRow--left,
+.movieRow--right{
+    position: absolute;
+    width: 40px;
+    height: 225px;
+    background: #00000060;
+    opacity: 0;
+    z-index: 110;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease .4s;
+}
+
+.movieRow--left{
+    left: 0;
+}
+
+.movieRow--right{
+    right: 0%;
+}
+
+.movieRow:hover .movieRow--left,
+.movieRow:hover .movieRow--right{
+    transition: all ease .4s;
+    opacity: 1;
+}
+
+/*===================RESPONSIVE====================*/
+
+@media only screen and (max-width: 768px){
+    .movieRow--left,
+    .movieRow--right{
+        opacity: 1;
+    }
+}
