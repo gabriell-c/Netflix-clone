@@ -43,11 +43,11 @@ npm start
 
 <h2 align="center">🖥Preview</h2>
 
-<img src="" alt="Previw desktop"></img>
+<img src="readme_imgs\Desktop_view.png" alt="Previw desktop"></img>
 <br>
 <br>
 <br>
-<img src="" alt="Previw mobile"></img>
+<img src="readme_imgs\Mobile_view.png" alt="Previw mobile"></img>
 
 ### Veja o projeto em funcionamento <a href="">aqui</a>. 🧐
 
