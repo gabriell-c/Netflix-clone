@@ -1,15 +1,14 @@
-let API_BASE = 'https://api.themoviedb.org/3'
-let API_KEY = '8685a60cd5dcaa17601a2c692da5ca33'
+let API_BASE = 'https://api.themoviedb.org/3';
+let API_KEY = '8685a60cd5dcaa17601a2c692da5ca33';
 
 
 const basicFetch = async (endpoint) => {
     const req = await fetch(`${API_BASE}${endpoint}`);
     const json = await req.json();
     return json;
-
 }
 
-export default{
+const exportedObject ={
 
     getHomeList: async () => {
         return[
@@ -69,12 +68,14 @@ export default{
                 case 'tv':
                     info = await basicFetch(`/tv/${movieID}?language=pt-BR&api_key=${API_KEY}`)
                 break;
-                // default:
-                //     info = null;
-                // break;
+                default:
+                    info = null;
+                break;
             }
         }
 
         return info
     }
 }
+
+export default exportedObject;
