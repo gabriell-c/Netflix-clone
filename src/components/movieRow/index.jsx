@@ -3,7 +3,7 @@ import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import './style.css'
 
-const exportedObject=({title, items})=>{
+const ExportedObject=({title, items})=>{
 
     const [scrolX, setScrolX] = useState(0)
 
@@ -50,4 +50,4 @@ const exportedObject=({title, items})=>{
   )
 }
 
-export default exportedObject;
+export default ExportedObject;
