@@ -32,6 +32,9 @@ fazer um slider manual, usar a biblioteca Material UI, etc... Ele é 100% respon
 ```
 npm install
 ```
+```
+npm install @mui/material @emotion/react @emotion/styled
+```
 
 <h2>E logo em seguida:</h2>
 
