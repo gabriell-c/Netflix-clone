@@ -22,6 +22,7 @@ fazer um slider manual, usar a biblioteca Material UI, etc... Ele é 100% respon
 ✅ Animações<br>
 ✅ Slider manual<br>
 ✅ Consumo de API<br>
+✅ Responsividade<br>
 ### etc...
 ---
 
@@ -32,8 +33,9 @@ fazer um slider manual, usar a biblioteca Material UI, etc... Ele é 100% respon
 ```
 npm install
 ```
+ou
 ```
-npm install @mui/material @emotion/react @emotion/styled
+npm i
 ```
 
 <h2>E logo em seguida:</h2>
@@ -52,7 +54,7 @@ npm start
 <br>
 <img src="readme_imgs\Mobile_view.png" alt="Previw mobile"></img>
 
-### Veja o projeto em funcionamento <a href="">aqui</a>. 🧐
+### Veja o projeto em funcionamento <a href="https://netflixclonereactapp.netlify.app/">aqui</a>. 🧐
 
 ---
 
