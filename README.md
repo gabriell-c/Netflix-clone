@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="400" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/799px-Netflix_2015_logo.svg.png">
+  <img width="500" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/799px-Netflix_2015_logo.svg.png">
 </div>
 
 ---
@@ -26,7 +26,7 @@ fazer um slider manual, usar a biblioteca Material UI, etc... Ele é 100% respon
 ### etc...
 ---
 
-<h2>Api utilizada <a target="_blank" href='https://developers.themoviedb.org/3/getting-started/introduction'>MDB</a></h2>
+<h2>Api utilizada <a target="_blank" href='https://developers.themoviedb.org/3/getting-started/introduction'>TMDB</a></h2>
 
 <h2>Instalando</h2>
 
